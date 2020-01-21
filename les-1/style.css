@@ -1,0 +1,20 @@
+
+
+p { margin-left: 50px;
+   }
+
+   body p { 
+       background-color: darkorange;
+   }
+
+   .class { 
+       background-color: darkslategrey;
+   }
+
+   body .class { 
+    background-color: forestgreen;
+}
+
+#id-1 {
+    background-color: indianred;
+}
