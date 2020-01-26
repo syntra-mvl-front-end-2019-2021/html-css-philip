@@ -1,24 +1,23 @@
 img.class-1 {
-    float: right;}
+    float: left;}
 
-p .clear {}
+p .clear {background-color: darkolivegreen;}
 
 header { background-color: red;
     padding: 5px;
     margin-bottom: 20px;}
 
-.logo {
-    height: 25px;
-    width: 75px;
+.logo { font-size: 20px;
+    height: 20px;
+    width: 70px;
     background-color: blue;}
 
 .nav-item { background-color: salmon;
 
 }
 
-.item-1 { background-color: purple;}
+/*.item-1 { background-color: purple;}
 
-.item-2 {}
+.item-2 {background-color: brown;}
 
-.item-3{}
-
+.item-3{background-color: darkmagenta;}*/
