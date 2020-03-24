@@ -1,0 +1,59 @@
+html { height: 100%;
+}
+*{ box-sizing: border-box;}
+
+body { 
+font-size: 16px;
+font-family: Arial, Helvetica, sans-serif; 
+color: white;
+margin: 0;}
+
+/* https://cdn.glitch.com/a5121e34-96b3-4a70-8227-040c51e64fae%2Fcat.jpg?1509635989509 */
+
+.header1 { display: flex;
+            background-color: #333333;
+            align-items: center;
+        padding-left: 1rem;}
+.ball { height: 50px;
+        margin-right: 1rem;}
+
+h1 { font-weight: lighter;}
+
+.header2 { background: center no-repeat url(https://cdn.glitch.com/a5121e34-96b3-4a70-8227-040c51e64fae%2Fcat.jpg?1509635989509);
+            height: 18.8rem;
+            background-size: cover;
+            display: flex;
+            padding: 1.8rem;
+            margin-bottom: 2rem;
+}
+    
+.big { font-size: 8.8rem;
+        align-self: center;
+        margin: 0rem 3.8rem 0rem 0rem;}
+.small { font-size: 1.2rem;
+         align-self: center;}
+
+.title { color: black;
+        font-size: 1rem;
+        position: absolute;bottom: 0rem ;
+        background-color: rgba(255, 255, 255, 0.6) ;
+        width: 100%;
+        padding: 0.6rem;
+        margin: 0;}
+
+.container { display: grid;
+            grid-template: repeat(2, 1fr) / repeat(3, 300px);
+            /* margin: auto; */
+            /* width: 75%; */
+            grid-gap: 2rem;
+            margin-bottom: 2rem;
+            justify-content: center; }
+
+.article-img { height: 200px;
+                width: 300px;}
+
+.cat { position: relative;}
+
+@media screen and (max-width: 960px) {
+
+}

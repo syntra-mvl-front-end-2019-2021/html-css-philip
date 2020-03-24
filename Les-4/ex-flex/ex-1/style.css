@@ -1,0 +1,34 @@
+html {height: 100%;}
+
+
+body { 
+    display: flex; 
+    flex-direction: column;     
+    height: 100%;
+    margin: 0px;}
+
+header, footer {background-color: blue ;
+        height: 150px;
+        width: 100%;}
+
+
+aside.left {background-color: red;
+        flex-direction: column;
+
+    }
+
+aside.right {background-color: red;
+        flex-direction: column;
+        
+    }
+
+.container { 
+    display: flex;
+    flex-grow: 1;
+    
+}
+
+main {
+    flex-grow: 1;
+    background-color: yellow;
+}

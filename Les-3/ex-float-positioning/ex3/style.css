@@ -1,0 +1,264 @@
+/*
+.body {
+    background-color: lightblue;
+    width: 400px;
+    height: 220px;
+    position: relative;
+    margin-top: 300px;
+    margin-left: 250px;
+}
+
+.tail {
+    width: 200px;
+    height: 25px;
+    background-color: lightcoral;
+    position: relative;
+    right: 200px;
+    top: 100px;
+}
+
+.paw-left {
+    background-color: lightcoral;
+    height: 175px;
+    width: 25px;
+    position: relative;
+    top: 195px;
+    left: 375px;
+}
+
+.paw-right {
+    background-color: lightcoral;
+    height: 175px;
+    width: 25px;
+    position: relative;
+    top: 20px;
+    
+}
+
+.head {
+    height: 150px;
+    width: 150px;
+    background-color: lightcoral;
+    position: relative;
+    bottom: 460px;
+    left: 400px;
+
+}
+
+.eye {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.ear {
+    height: 100px;
+    width: 50px;
+    background-color: brown;
+}
+
+*/
+
+body {
+    /* voor het boompje */
+    overflow-x: hidden;
+}
+
+.body {
+    background-color: lightblue;
+    width: 400px;
+    height: 220px;
+    position: relative;
+    margin-top: 300px;
+    margin-left: 250px;
+    /* animation: bounce 3s ease-out infinite; */
+    /* z-index: 1; */
+}
+
+.tail {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    background-color: lightcoral;
+    /* left: -200px; */
+    right: 100%;
+    top: 50%;
+    margin-top: -12.5px;
+    /* animation: wiggle 1s ease-in-out infinite; */
+    /* transform-origin: 100% 50%; */
+}
+
+.paw-left {
+    background-color: lightcoral;
+    height: 175px;
+    width: 25px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    /* bottom: -175px; */
+    /* animation: walk 3s infinite; */
+    /* transform-origin: 50% 0; */
+}
+
+.paw-right {
+    background-color: lightcoral;
+    height: 175px;
+    width: 25px;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    /* animation: walk 3s infinite; */
+    /* transform-origin: 50% 0; */
+}
+
+.head {
+    background-color: lightcoral;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 100%;
+    top: -75px;
+    /* animation: ear-bounce 3s step-start infinite; */
+}
+
+.eye {
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.ear {
+    background-color: brown;
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    left: -25px;
+    top: 0;
+    /* animation: ear-bounce 3s step-start infinite; */
+}
+
+.body-color {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.color-1 {
+    background-color: lightgoldenrodyellow;
+}
+
+.color-2 {
+    background-color: lightpink;
+}
+
+.color-3 {
+    background-color: lightseagreen;
+}
+
+.color-4 {
+    background-color: lightslategray;
+}
+
+/* .grass {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 200px;
+    background-color: green;
+} */
+
+/* .tree {
+    background-color: brown;
+    position: absolute;
+    left: 50%;
+    bottom: 200px;
+    height: 600px;
+    width: 150px;
+    animation: flow 8s infinite;
+} */
+
+/* .tree::after {
+    background-color: green;
+    position: absolute;
+    display: block;
+    content: '';
+    bottom: 80%;
+    width: 500px;
+    height: 500px;
+    left: 50%;
+    border-radius: 50%;
+    transform: translateX(-50%);
+} */
+
+/* @keyframes walk {
+    0% {
+        transform: rotate(30deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(30deg);
+    }
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes bounce-rotate {
+    0% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+@keyframes wiggle {
+    0% {
+        transform: rotate(-20deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(-20deg);
+    }
+}
+@keyframes ear-bounce {
+    0% {
+        transform: translateY(5px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(5px);
+    }
+}
+@keyframes flow {
+    0% {
+        left: 200%;
+    }
+    100% {
+        left: -50%;
+    }
+} */

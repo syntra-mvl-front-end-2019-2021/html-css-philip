@@ -1,0 +1,195 @@
+
+* {box-sizing: border-box;}
+
+body{margin: 0;
+font-family: sans-serif;
+background-color: lightgrey;}
+
+header {
+background-color: blueviolet;
+color: white;
+height: 400px;
+ }
+
+.top-header { 
+    width: 1300px;
+    margin: auto; /* centreren - of justify-content:center*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;}
+
+
+.logo {height:100px ;
+    
+padding: 12px;}
+
+.logo .logo-image { display: block; /*image is een inline element = zo groot als content*/
+    height: 100%;
+
+}
+
+nav { display: flex; /* standaard row*/
+      ;}
+
+.nav-item a { border-color: black;
+            color: white;
+            text-decoration: none; /*automatische onderlijning link uit*/
+            border-bottom: 1px solid white;
+            padding: 8px 10px;}
+
+.nav-item.active a {border-color: red;}
+
+.bottom-header { text-align: center;
+                padding: 100px 0; /* boven-onder en links-rechts*/
+                margin: auto;
+                width: 1300px;
+}
+
+.bottom-header h1 {
+        margin: 10px 0;
+}
+
+.bottom-header p { margin: 5px 0;
+
+}
+
+.container p { background-color: white;
+            color: black;
+            margin: 0;
+            padding: 20px 0;
+            display: flex;
+        justify-content: center;}
+
+
+.hoofdblok-1 { 
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.blokA { background-color: white;
+    color: black;
+    width: 300px;
+    margin: 20px 10px;
+    flex-grow: 1;
+    padding: 20px;
+    
+    }
+
+.blokA a { color: chocolate;
+          text-decoration: none;}
+
+.afb { display: flex;
+    justify-content: center;}
+
+.afb img {   display: block;
+                 height: 100px;
+                width: 100px;
+                border-radius: 50%;
+            }
+
+.container-2 { display: flex;
+            align-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 750px;
+            margin: 0 300px;
+    
+             }
+
+.hoofdblok-2 {      width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;}
+
+.blokB { background-color: white;
+        color: black;
+        width: 300px;
+        margin: 10px 10px;
+        padding: 20px;
+        flex-grow: 1;
+        
+}
+
+.blokB h2 { margin: 0px;}
+
+.grootte { font-size: 20px;
+            padding: 0px;
+            margin: 0px;}
+
+.hoofdblok-3 { width: 1300px;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+           }
+
+.blokC { display: flex;
+    flex-direction: column;
+        margin: 10px 20px;
+        padding: 20px; 
+        width: 1000px;
+        }
+
+.blokD {  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 900px;
+        padding: 20px;
+        
+}
+
+.blokE { display: flex;
+    flex-direction: column;
+    width: 620px;
+    padding: 20px;
+    align-content: flex-start;
+    
+    
+    
+}
+
+.blok-7 {background-color: white;
+    color: black;
+    width: 400px;
+    padding: 20px;
+    margin: 10px 20px;
+    
+}
+
+.blok-10 {background-color: white;
+    color: black;
+    width: 400px;
+    padding: 20px;
+    margin: 10px 20px;
+    
+}
+.blok-8 { 
+    background-color: white;
+    color: black;
+    width: 400px;
+    padding: 20px;
+    margin: 10px 20px;
+    
+    
+}
+
+
+.blok-9 {   width: 300px;
+            background-color: white;
+            color: black;
+           justify-content: flex-end;
+           padding: 20px;
+}
+
+.blok-11 { 
+    background-color: white;
+    color: black;
+    width: 900px;
+    padding: 20px;
+    
+}

@@ -1,0 +1,41 @@
+* { box-sizing: border-box;}
+
+html { height: 100%;}
+
+header { color: white;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    }
+
+header nav {float: right;}
+
+.image { float: left;
+    left: 150 px; 
+    margin: 20px;       
+}
+
+main p { text-transform: uppercase;
+     }
+
+aside { background-color: grey;
+        height: 100%;
+        width: 100px;
+        
+}
+
+aside div { text-align: center ;
+text}
+
+
+body { height: 100%;
+    margin: 0;
+    
+        }
+
+main { float: right;
+        margin-left: 150px;
+}
+
+
+

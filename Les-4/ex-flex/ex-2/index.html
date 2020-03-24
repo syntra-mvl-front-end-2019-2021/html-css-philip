@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        
+        <div class="top-header">
+
+            <div class="logo">
+
+                <img class="logo-image" src="data:image/png;base64,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" alt="logo">
+
+            </div>
+
+        
+        
+        
+            <nav class="nav">
+            
+                <div class="nav-item active">
+                    <a href="#">Home</a>
+                </div>
+            
+                <div class="nav-item">  
+                    <a href="#">Examples</a>
+                </div>
+            
+                <div class="nav-item">  
+                    <a href="#">Features</a>
+                </div>
+            
+                <div class="nav-item"> 
+                    <a href="#">Team</a>
+                </div>
+
+                <div class="nav-item"> 
+                    <a href="#">Help</a>
+                </div>
+
+            </nav>
+        </div>
+
+        <div class="bottom-header">
+            <h1>The new standard in blabla</h1>
+                <p> The new standard in blabla
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                </p>
+
+
+        </div>
+       
+
+    </header>
+
+    <div class="container">
+        <p>New Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+    </div>
+
+    <div class="hoofdblok-1">
+        
+        <div class="blokA blok-1">
+            <div class="afb">
+                <img src="https://picsum.photos/100/100" alt="random">
+            </div>
+            <h3>Tristique senectus et netus et.</h3>
+            <p>  Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.
+            </p>
+            <p><a href="#">Learn more</a></p>
+
+        </div>
+
+    
+        <div class="blokA blok-2">
+            <div class="afb">
+                <img src="https://picsum.photos/100/100" alt="random">
+            </div>
+            <h3>Tempor orci dapibus ultrices in.</h3>
+            <p>  Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed arcu non odio euismod lacinia at quis risus. Faucibus turpis in eu mi bibendum neque egestas cmonsu songue. Phasellus vestibulum lorem sed risus.
+            </p>
+            <p><a href="#">Learn more</a></p>
+        </div>
+    
+        <div class="blokA blok-3">
+            <div class="afb">
+                <img src="https://picsum.photos/100/100" alt="random">
+            </div>
+            <h3>Leo integer malesuada nunc vel risus.</h3>
+            <p>  Imperdiet dui accumsan sit amet nulla facilisi morbi. Fusce ut placerat orci nulla pellentesque dignissim enim. Libero id faucibus nisl tincidunt eget nullam. Commodo viverra maecenas accumsan lacus vel facilisis.
+            </p>
+            <p><a href="#">Learn more</a></p>
+
+        </div>
+    </div>
+
+    <div class="container-2">
+        <h2>Perfect for developers or designers!</h2>
+        <p>Vel fringilla est ullamcorper eget nulla facilisi. Nulla facilisi nullam vehicula ipsum a. Neque egestas congue quisque egestas diam in arcu cursus.
+        </p>
+    </div>
+
+    <div class="hoofdblok-2">
+        
+        <div class="blokB blok-4">
+            <h2>Hello world</h2>
+            <p class="grootte">What is up?
+            </p>
+        </div>
+
+    
+        <div class="blokB blok-5">
+            <h2>Foo</h2>
+            <p class="grootte">Bar
+            </p>
+        </div>
+    
+        <div class="blokB blok-6">
+            <h2>Third column</h2>
+            <p class="grootte">With some content</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+            </p>
+        </div>
+    </div>
+
+    <div class="hoofdblok-3">
+        <div class="blokC">
+            <div class="blokD">
+                <div class="blokE">
+                    <div class="blok-7">
+                        <h2>Vertical tiles</h2>
+                        <p class="grootte">Top box
+                        </p>
+                    </div>
+                    <div class="blok-10">
+                        <h2>Vertical tiles</h2>
+                        <p class="grootte">Bottom box
+                        </p>
+                    </div>
+                </div>
+                <div class="blok-8">
+                    <h2>Middle box</h2>
+                    <p class="grootte">Whith an image
+                    </p>
+                </div>
+            </div>
+            <div class="blok-11">
+                <h2>Wide column</h2>
+                <p class="grootte">Aligned with the right column
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+                </p>
+            </div> 
+            
+
+        </div>
+    
+
+    
+        <div class="blok-9">
+            <h2>Tall column</h2>
+            <p class="grootte">With even more content</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.
+            </p>
+            <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.
+            </p>  
+            <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

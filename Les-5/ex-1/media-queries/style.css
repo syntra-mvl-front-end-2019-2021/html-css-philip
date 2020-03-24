@@ -1,0 +1,80 @@
+.test-div-orientation { height: 200px;
+            width: 200px;
+            background-color: blue;
+}
+
+
+
+@media screen and ( orientation: landscape) {
+    .test-div-orientation { 
+        background-color: red;
+}
+}
+
+
+@media screen and ( orientation: portrait) {
+    .test-div-orientation { 
+        background-color: yellow;
+}
+}
+
+
+@media print and {
+    .test-div { 
+        background-color: purple;
+}
+}
+
+.test-div-responsive {height: 200px;
+    width: 200px;
+    background-color:black;
+}
+
+/* mobiel nr desktop -> min-width */
+
+@media screen and (min-width: 400px) {
+    .test-div-responsive {width: 300px;
+        background-color:black;
+    }
+
+}
+
+/* desktop nr mobiel -> max-width*/
+
+.test-div-large-to-small {
+    height: 200px;
+        width: 600px;
+        background-color: brown;
+
+}
+
+@media screen and (max-width: 700px) {
+    .test-div-large-to-small {
+        width: 500px;
+        background-color:brown;
+
+}
+/*
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {  height: 200px;
+    width: 200px;
+    background-color: brown;
+    margin-left: 10px;
+
+}
+
+@media screen and (max-width: 375px) {
+.container {    
+      flex-direction: column;
+
+
+}
+
+}
+
+*/
+/*.column { width: calc((100%-20px) / 2);*/
